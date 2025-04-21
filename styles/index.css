@@ -1,0 +1,22 @@
+#wrap {}
+#wrap header {
+    width:1920px; height:92px;
+    padding:0 60px;
+}
+#wrap header h1 {
+    background-color:aqua;
+    width:56px; height:65px;
+    display:inline-block;
+}
+#wrap header h1 a {}
+#wrap header h1 a img {}
+#wrap header nav {}
+#wrap header nav .gnb {}
+#wrap header nav .gnb li {}
+#wrap header nav .gnb li a {}
+#wrap header nav .gnb li a p {}
+#wrap header .right_menu {}
+#wrap header .right_menu li {}
+#wrap header .right_menu li a {}
+#wrap header .right_menu li a span {}
+#wrap header .right_menu li a img {}
