@@ -6,28 +6,61 @@
 #wrap header nav {}
 #wrap header nav .gnb {}
 #wrap header nav .gnb li {}
-#wrap header nav .gnb li a {}
+#wrap header nav .gnb li a {
+    /* font-family:'pretendard', sans-serif; 초기값에 존재하므로 생략 */
+    font-weight:600px;
+    font-size:1.125rem;
+    /* line-height:1; reset초기값에 존재하므로 생략 */
+    /* letter-spacing:-0.02rem; reset초기값에 존재하므로 생략 */
+    /* text-align:left; 기본값에 존재하므로 생략 */
+    /* color:#000; reset초기값에 존재하므로 생략 */
+}
 #wrap header .right_menu {}
 #wrap header .right_menu li {}
-#wrap header .right_menu li a {}
+#wrap header .right_menu li a {
+    font-size:0.75rem;
+    letter-spacing:0;
+}
 #wrap header .right_menu li a img {}
 /* ========================================footer */
 #wrap footer {}
 #wrap footer .top {}
 #wrap footer .top .left{}
 #wrap footer .top .left a {}
-#wrap footer .top .left a:nth-child(1) {}
-#wrap footer .top .left a:nth-child(2) {}
+#wrap footer .top .left a:nth-child(1) {
+    font-weight:700;
+    color:#138FBF;
+}
+#wrap footer .top .left a:nth-child(2) {
+    font-weight:700;
+    color:#DA2128;
+}
 #wrap footer .top .left a img {}
 #wrap footer .top .right {}
 /* ============================footer 패밀리사이트+사이트맵 공통 */
-#wrap footer .top .right .site {}
+#wrap footer .top .right .site {
+    font-size:0.75rem;
+    border:1px solid #eee;
+    padding:7px 10px;
+}
 /* ============================footer 패밀리사이트+사이트맵 개별 */
 #wrap footer .top .right select {}
 #wrap footer .top .right select option {}
 #wrap footer .top .right .site_map {}
 #wrap footer .top .right .site_map span {}
 #wrap footer .top .right .site_map img {}
-#wrap footer .bottom {}
-#wrap footer .bottom address {}
-#wrap footer .bottom p {}
+#wrap footer .bottom * {
+    font-size:0.875rem;
+    line-height:1.3;
+    color:#808080;
+}
+#wrap footer .bottom address {
+    /* font-size:0.875rem;
+    line-height:1.3;
+    color:#808080; */
+}
+#wrap footer .bottom p {
+    /* font-size:0.875rem;
+    line-height:1.3;
+    color:#808080; */
+}
