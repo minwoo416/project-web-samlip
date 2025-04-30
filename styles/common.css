@@ -70,7 +70,6 @@
 #wrap header nav .gnb > li .lnb_bg .lnb_depth1 > li a {
     font-size:1.063rem;
     font-weight:600;
-    
 }
 #wrap header nav .gnb > li .lnb_bg .lnb_depth1 li .lnb_depth2 {
     border:2px solid red;
@@ -80,6 +79,22 @@
     margin-bottom:16px;
 }
 #wrap header nav .gnb > li .lnb_bg .lnb_depth1 li .lnb_depth2 li a {}
+#wrap header nav .gnb > li .lnb_bg .lnb_depth1 li .lnb_depth2 li a img {}
+/* ==========================================================================집에서 */
+#wrap header nav .gnb > li:nth-child(2) .depth2  {
+    width:280px; height:492px;
+    display:flex; flex-flow:row wrap;
+    align-content:flex-start;
+}
+#wrap header nav .gnb > li:nth-child(2) .depth2:nth-child(2) {
+    height:435px;
+}
+#wrap header nav .gnb > li:nth-child(2) .depth2:nth-child(3) {
+    height:360px;
+}
+#wrap header nav .gnb > li:nth-child(2) .depth2:nth-child(4) {
+    height:135px;
+}
 /* ======================================우측 보조메뉴 */
 #wrap header .right_menu {
     background-color:yellow;
